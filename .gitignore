@@ -1,0 +1,23 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+
+# Build / packaging output (from `python -m build`)
+build/
+dist/
+*.egg-info/
+
+# Runtime artifact (AgentGuard's audit log)
+*.log
+
+# Local tooling & secrets
+.claude/
+.env
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
